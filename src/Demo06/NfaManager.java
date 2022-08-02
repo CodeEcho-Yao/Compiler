@@ -1,11 +1,7 @@
-package Demo07;
+package Demo06;
 
-import java.util.ArrayList;
 import java.util.Stack;
 
-/*
-	负责NFA节点的构造和回收
- */
 
 public class NfaManager {
     private final int NFA_MAX = 256; //最多运行分配256个NFA节点
@@ -16,10 +12,6 @@ public class NfaManager {
     
     public NfaManager() throws Exception {
     	nfaStatesArr = new Nfa[NFA_MAX];
-    	for (int i = 0; i < NFA_MAX; i++) {
-    		nfaStatesArr[i] = new Nfa();
-    	}
-    	
     	nfaStack = new Stack<Nfa>();
     	
     	if (nfaStatesArr == null || nfaStack == null) {
@@ -39,10 +31,8 @@ public class NfaManager {
     	}
     	else {
     		nfa = nfaStatesArr[nextAlloc];
-    		nextAlloc++;
     	}
     	
-    	nfa.clearState();
     	nfa.setStateNum(nfaStates);
     	nfa.setEdge(Nfa.EPSILON);
     	

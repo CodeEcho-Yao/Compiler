@@ -1,4 +1,4 @@
-package Demo07;
+package Demo06;
 
 public class Lexer {
     public enum Token {
@@ -70,9 +70,6 @@ public class Lexer {
     	return curExpr;
     }
     
-    public Token getCurrentToken() {
-    	return currentToken;
-    }
     public Token advance() {
     	if (currentToken == Token.EOS) {
     		//一个正则表达式解析结束后读入下一个表达式

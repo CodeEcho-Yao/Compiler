@@ -1,9 +1,12 @@
-package Demo06;
+package Demo05;
 
 import InputSystem.Input;
 
 import java.util.ArrayList;
 
+/*
+	实现正则表达式的宏替换
+ */
 
 public class RegularExpressionHandler {
 	private Input input = null;

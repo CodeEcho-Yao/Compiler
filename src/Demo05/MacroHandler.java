@@ -1,4 +1,4 @@
-package Demo06;
+package Demo05;
 
 import InputSystem.Input;
 
@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+/*
+	正则表达式输入预处理
+ */
 
 public class MacroHandler {
 	/*

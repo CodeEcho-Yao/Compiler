@@ -1,4 +1,4 @@
-package Demo06;
+package Demo08;
 
 import InputSystem.Input;
 

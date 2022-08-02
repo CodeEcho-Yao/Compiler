@@ -1,11 +1,8 @@
-package Demo07;
+package Demo08;
 
 import java.util.ArrayList;
 import java.util.Stack;
 
-/*
-	负责NFA节点的构造和回收
- */
 
 public class NfaManager {
     private final int NFA_MAX = 256; //最多运行分配256个NFA节点

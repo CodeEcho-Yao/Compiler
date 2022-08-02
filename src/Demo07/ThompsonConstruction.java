@@ -3,7 +3,7 @@ package Demo07;
 import InputSystem.Input;
 
 /*
-	正则表达式的词法解析原理
+	由简单到复杂构建 NFA 状态机
  */
 
 public class ThompsonConstruction {
@@ -11,6 +11,9 @@ public class ThompsonConstruction {
     private MacroHandler macroHandler = null;
     RegularExpressionHandler regularExpr = null;
     private Lexer lexer = null;
+    
+    private NfaMachineConstructor nfaMachineConstructor = null;
+    private NfaPrinter nfaPrinter = new NfaPrinter();
     
     public void runMacroExample() throws Exception {
     	System.out.println("Please enter macro definition");
@@ -138,12 +141,30 @@ public class ThompsonConstruction {
     	System.out.println(s);
     }
     
-
+    private void runNfaMachineConstructorExample() throws Exception {
+    	lexer = new Lexer(regularExpr);
+    	nfaMachineConstructor = new NfaMachineConstructor(lexer);
+    	NfaPair pair = new NfaPair();
+//    	nfaMachineConstructor.constructNfaForSingleCharacter(pair);
+//    	nfaMachineConstructor.constructNfaForDot(pair);
+    	//nfaMachineConstructor.constructNfaForCharacterSetWithoutNegative(pair);
+//    	nfaMachineConstructor.constructNfaForCharacterSet(pair);
+//    	nfaMachineConstructor.term(pair);
+    	//nfaMachineConstructor.constructStarClosure(pair);
+    	//nfaMachineConstructor.constructPlusClosure(pair);
+    	//nfaMachineConstructor.constructOptionsClosure(pair);
+    	nfaMachineConstructor.factor(pair);
+    	
+    	nfaPrinter.printNfa(pair.startNode);
+    }
+    
     
     public static void main(String[] args) throws Exception {
     	ThompsonConstruction construction = new ThompsonConstruction();
     	construction.runMacroExample();
     	construction.runMacroExpandExample();
     	construction.runLexerExample();
+    	
+    	construction.runNfaMachineConstructorExample();
     }
 }
