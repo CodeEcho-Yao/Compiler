@@ -29,4 +29,8 @@ Thompson construction method: NFA with complex structure
 Thompson construction method: NFA after regular expression OR connection
 ***
 ###### Demo10
+Identify input strings using NFA
+###### Demo11
+
+
 
