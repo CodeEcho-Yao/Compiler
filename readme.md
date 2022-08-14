@@ -10,12 +10,23 @@ parser
 improved parser
 ***
 ###### Demo04
+InputSystem
+****
+###### Demo05
 FMS
 ***
-###### Demo05
+###### Demo06
 1. Regular expression input preprocessing
 2. macro replacement of regular expressions
 ***
-###### Demo06
+###### Demo07
 Lexical analysis principle of regular expressions
 ***
+###### Demo08
+Thompson construction method: NFA with complex structure
+***
+###### Demo09
+Thompson construction method: NFA after regular expression OR connection
+***
+###### Demo10
+
