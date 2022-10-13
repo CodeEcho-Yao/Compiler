@@ -30,7 +30,12 @@ Thompson construction method: NFA after regular expression OR connection
 ***
 ###### Demo10
 Identify input strings using NFA
+***
 ###### Demo11
-
-
-
+Convert NFA to DFA
+***
+###### Demo12
+DFA Minimization
+***
+###### Demo13
+push down DFA
