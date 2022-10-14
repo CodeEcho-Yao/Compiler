@@ -63,3 +63,6 @@ build parse table
 ***
 ###### Demo21
 BottomUpParser
+***
+###### Demo22
+generate LALR code
