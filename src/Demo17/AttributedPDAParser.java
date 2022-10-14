@@ -1,4 +1,4 @@
-package Demo16;
+package Demo17;
 
 import java.util.Stack;
 
@@ -146,8 +146,8 @@ public class AttributedPDAParser {
     			lexer.advance();
     			break;
     		case RIGHT_PARENT:
-//    			pdaStack.pop();
-				popStacks();
+    			//pdaStack.pop(); 1+(2*3)
+    			popStacks();
     			if (lexer.match(Lexer.RP) == false) {
     				parseError();
     			}
