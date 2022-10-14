@@ -1,6 +1,6 @@
 package Demo06;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 import java.util.ArrayList;
 

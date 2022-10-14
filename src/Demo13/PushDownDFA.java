@@ -1,6 +1,6 @@
 package Demo13;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 import java.util.Stack;
 

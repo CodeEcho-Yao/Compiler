@@ -1,6 +1,6 @@
 package Demo12;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 /*
 	DFA 最小化

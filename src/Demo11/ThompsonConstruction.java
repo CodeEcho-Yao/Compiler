@@ -1,6 +1,6 @@
 package Demo11;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 /*
 	将 NFA 转换为 DFA

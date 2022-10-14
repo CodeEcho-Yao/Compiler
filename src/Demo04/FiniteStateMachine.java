@@ -1,6 +1,6 @@
 package Demo04;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 /*
     有限状态机驱动的整型、浮点型数值识别器

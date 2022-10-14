@@ -1,6 +1,4 @@
-package InputSystem;
-
-import java.io.InputStream;
+package utils.InputSystem;
 
 
 public class DiskFileHandler implements FileHandler {

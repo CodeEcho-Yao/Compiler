@@ -1,6 +1,6 @@
 package Demo09;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 /*
 	实现正则表达式OR连接后的 NFA

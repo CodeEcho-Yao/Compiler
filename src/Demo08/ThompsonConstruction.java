@@ -1,6 +1,6 @@
 package Demo08;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 /*
 	在简单NFA的基础上构造更复杂的NFA

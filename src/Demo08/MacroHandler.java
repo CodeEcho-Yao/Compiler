@@ -1,6 +1,6 @@
 package Demo08;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 import java.util.HashMap;
 import java.util.Iterator;

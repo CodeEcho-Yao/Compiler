@@ -1,6 +1,6 @@
 package Demo07;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 /*
 	由简单到复杂构建 NFA 状态机

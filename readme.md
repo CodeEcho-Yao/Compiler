@@ -1,4 +1,4 @@
-### Implementing a simple compiler with Java
+### Implementing a simple utils.CompilerParser with Java
 ***
 ###### Demo01
 lexer
@@ -10,7 +10,7 @@ parser
 improved parser
 ***
 ###### Demo04
-InputSystem
+utils.InputSystem
 ****
 ###### Demo05
 FMS
@@ -41,7 +41,7 @@ DFA Minimization
 push down DFA
 ***
 ###### Demo14
-PDA Compiler
+PDA utils.CompilerParser
 ***
 ###### Demo15
 attributed parser
@@ -69,3 +69,6 @@ generate LALR code
 ***
 ###### Demo23
 BottomUpParser LR state machine
+***
+###### Demo24
+LR state machine

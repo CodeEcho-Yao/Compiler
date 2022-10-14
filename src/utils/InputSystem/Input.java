@@ -1,4 +1,4 @@
-package InputSystem;
+package utils.InputSystem;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;

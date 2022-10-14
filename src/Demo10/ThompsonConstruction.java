@@ -1,6 +1,6 @@
 package Demo10;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 /*
 	使用 NFA 状态机识别输入字符串

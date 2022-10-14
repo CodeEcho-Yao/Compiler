@@ -1,4 +1,4 @@
-package InputSystem;
+package utils.InputSystem;
 
 /*
 	一组输入流读取接口

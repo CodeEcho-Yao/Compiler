@@ -1,6 +1,6 @@
 package Demo06;
 
-import InputSystem.Input;
+import utils.InputSystem.Input;
 
 /*
 	正则表达式的词法解析原理
