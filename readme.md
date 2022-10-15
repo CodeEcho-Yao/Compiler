@@ -75,3 +75,6 @@ LR state machine
 ***
 ###### Demo25
 BottomUpParser_LR + compressed
+***
+###### Demo26
+BottomUpParser LR state machine
