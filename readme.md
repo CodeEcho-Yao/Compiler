@@ -93,3 +93,6 @@ C compiler inplementation_function_parsing
 ***
 ###### Demo31
 C compiler inplementation_struct_parsing
+***
+###### Demo32
+C compiler inplementation_struct_type_system
