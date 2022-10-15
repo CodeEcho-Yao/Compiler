@@ -78,3 +78,6 @@ BottomUpParser_LR + compressed
 ***
 ###### Demo26
 BottomUpParser LR state machine
+***
+###### Demo27
+BottomUpParser LR table parsing
