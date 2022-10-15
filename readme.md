@@ -90,3 +90,6 @@ C compiler inplementation, symbol and type
 ***
 ###### Demo30
 C compiler inplementation_function_parsing
+***
+###### Demo31
+C compiler inplementation_struct_parsing
