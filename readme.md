@@ -84,3 +84,6 @@ BottomUpParser LR table parsing
 ***
 ###### Demo28
 C compiler inplementation
+***
+###### Demo29
+C compiler inplementation, symbol and type
