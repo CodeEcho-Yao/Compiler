@@ -102,3 +102,6 @@ C compiler inplementation_function_def1
 ***
 ###### Demo34
 C compiler inplementation_if_else
+***
+###### Demo35
+C compiler inplements Code Implementation Tree
