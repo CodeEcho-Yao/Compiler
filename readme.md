@@ -136,3 +136,6 @@ C compiler inplementation-function call without args
 ***
 ###### Demo44
 C compiler inplementation-function call with args
+***
+###### Demo45
+C compiler inplementation return
