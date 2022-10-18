@@ -133,3 +133,6 @@ supplement ++
 ***
 ###### Demo43
 C compiler inplementation-function call without args
+***
+###### Demo44
+C compiler inplementation-function call with args
