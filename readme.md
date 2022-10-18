@@ -139,3 +139,6 @@ C compiler inplementation-function call with args
 ***
 ###### Demo45
 C compiler inplementation return
+***
+###### Demo46
+C compiler inplementation-lib call
