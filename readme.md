@@ -151,3 +151,6 @@ C compiler inplementation recursive args prorection
 ***
 ###### Demo49
 C compiler inplementation_quick_sort
+***
+###### Demo50
+C compiler inplementation malloc
