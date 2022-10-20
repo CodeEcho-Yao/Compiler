@@ -154,3 +154,7 @@ C compiler inplementation_quick_sort
 ***
 ###### Demo50
 C compiler inplementation malloc
+***
+###### Demo51
+C compiler inplementation malloc
+supplement ++
