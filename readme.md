@@ -148,3 +148,6 @@ C compiler inplementation_while_dowhile
 ***
 ###### Demo48
 C compiler inplementation recursive args prorection
+***
+###### Demo49
+C compiler inplementation_quick_sort
