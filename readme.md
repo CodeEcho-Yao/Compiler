@@ -161,3 +161,6 @@ supplement ++
 ***
 ###### Demo52
 C compiler implement pointer direct access memory
+***
+###### Demo53
+C compiler inplementation struct
