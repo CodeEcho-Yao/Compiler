@@ -158,3 +158,6 @@ C compiler inplementation malloc
 ###### Demo51
 C compiler inplementation malloc
 supplement ++
+***
+###### Demo52
+C compiler implement pointer direct access memory
